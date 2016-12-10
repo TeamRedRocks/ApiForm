@@ -1,0 +1,43 @@
+body
+{
+    background-image: url("burgertime.png");
+    background-repeat: repeat;
+}
+
+.container{
+    width: 50%;
+    margin-left: auto; margin-right: auto;
+    margin-top: 20px; margin-bottom: 20px;
+    border-radius: 14px;
+    background-color: #FAA;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    padding: 10px;
+    background-color: #FBB;
+    border-right: 4px solid #B88;
+}
+
+.navbar li.last {
+    border-right: none;
+}
+
+.navbar li a {
+    /*display: block;*/
+    color: #000;
+    text-decoration: none;
+}
+
+footer {
+    border-top: 4px dashed #B88;
+    padding-top: 12px;
+}
